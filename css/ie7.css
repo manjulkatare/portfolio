@@ -1,0 +1,13 @@
+/*******************************************************************/
+/**************************** IE 7.0 Styles ************************/
+/*******************************************************************/
+
+form.formular legend { color:#ddd;  margin:0px 0px 20px -12px;}
+form.formular .submit { padding:0px; font-size:11px; }
+#footer div.flinks p { margin-bottom:10px;}
+#underfooter { padding-top:10px !important; }
+div.details {position:relative !important; width:700px;  float:left; margin-top:-94px; height:82px;}
+#acc1 { width:1300px;}
+#acc1 div.triggers { width:1290px !important;}
+#acc1 div.triggers a img ,#acc1 div.triggers a img:hover { display:inline !important; float:none !important;  width:200px !important;  height:100px !important; margin:0px 8px 8px 0px !important;}
+#awardcontainer div.boximage { margin:10px !important;}

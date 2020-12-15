@@ -1,0 +1,46 @@
+/*******************************************************************/
+/**************************** CSS 3 Styles *************************/
+/*******************************************************************/
+
+
+
+/*******************************************************************/
+/******************* Styles for Text-shadow ************************/
+/*******************************************************************/
+
+#navbar ul#flowtabs li a {  text-shadow:0px 1px 0px #222; }
+#acc1 h2.current a, #acc1 h2.current a:hover { text-shadow:0px 1px 0px #111;}
+#acc2 div.pane p { text-shadow:0 1px 0 #ddd;}
+#acc3 div h3,                                         
+#header p.welcometext,                            
+#flowpanes .items div#tt1 div.content div.home p,    
+#flowpanes .items div#tt3 div.content div.services2 p,
+#flowpanes .items div#tt4 div.content div.whyme p,   
+#flowpanes .items div#tt5 div.content div.contactme p { text-shadow:0px 1px 0px #333; }
+
+#testimonial div.tcontainer p.postinginfo span,
+#acc1 h2 a,
+#acc1 h2 a:hover,
+#acc3 div p { text-shadow:0 1px 0 #000; }
+
+
+/*******************************************************************/
+/********************** Styles for Opacity *************************/
+/*******************************************************************/
+
+#acc2 h2:hover, #acc3 img:hover { opacity:0.5; filter: alpha(opacity=50); }
+#acc2 h2.current:hover, #acc3 img.current { cursor:default; opacity:1; filter: alpha(opacity=100); }
+div.simple_overlay div.details { opacity:0.85; filter: alpha(opacity=85); }
+#testimonial div.tcontainer { opacity:0.6; filter: alpha(opacity=60); }
+
+
+/*******************************************************************/
+/********************* Styles Shadow Border shades *****************/
+/*******************************************************************/
+
+div.simple_overlay {  -moz-box-shadow:0 0 90px 5px #666;  -webkit-box-shadow: 0 0 90px #666; }
+
+/*******************************************************************/
+/********************** Styles for Overflow ************************/
+/*******************************************************************/
+.contentWrap { overflow-y:auto; }

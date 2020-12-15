@@ -1,0 +1,8 @@
+body {text-align:center; background:#3e3c39 !important;}
+#header, #navbar, #acc1, #footer, #flowpanes, #footerblock, #underfooter, h3.showhide {display:none;}
+#iefuneralbox  { margin-top:20px; width:900px; height:620px; display:block !important; text-align:left;}
+#iefuneralbox div.rightbox { float:left; padding:30px 0px 0px 40px;  background:#3e3c39;}
+#iefuneralbox div.leftbox {float:left;}
+#iefuneralbox div.rightbox p {text-align:justify; color:#999; font-size:15px;}
+#iefuneralbox div.rightbox ul li { list-style-type:disc; font-size:12px; color:#aba33c;}
+#iefuneralbox div.rightbox p a { text-decoration:none; color:#aba33c;  font-size:12px;}
