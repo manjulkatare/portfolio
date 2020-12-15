@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>OverlayBox using JQuery</title>
+<script language="javascript" src="js/jquery-latest.js"></script>
+
+
+<style type="text/css">
+    .bgCover { background:#000; position:absolute; left:0; top:0; display:none; overflow:hidden; height:100%; width:100%;}
+    .overlayBox {
+        border:5px solid #636363;
+        position:absolute;
+        display:none;
+        width:500px;
+        height:300px;
+        background:#fff;
+    }
+    .overlayContent {
+        padding:10px;
+    }
+    .closeLink {
+        float:left;
+        color:#111;
+    }
+    a:hover { text-decoration:none; }
+    
+    h2 {
+        padding:5px;
+        margin:0;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="bgCover">&nbsp;</div>
+<div class="overlayBox">
+	<div class="overlayContent">
+        <a href="#" class="closeLink">Close</a>
+        <h2>Hello World</h2>
+        <p>We can load anything here.</p>
+	</div>
+</div>
+<p><a href="#" class="launchLink">Launch Window</a></p>
+
+
+<h1>Product detail Overlay </h1>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
+survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
+survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
+survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+
+<script language="javascript">
+    $(document).ready(function() {
+        var isOpen = new Boolean();
+        isOpen = false;
+        $(".bgCover").css({opacity:0.5});
+        var fadeSpeed;
+        fadeSpeed  = "fast";
+    
+    function showOverlayBox() {
+            if( isOpen == false ) return;
+            $(".overlayBox").css({display:"block",left:( $(window).width() - $(".overlayBox").width() )/2,top:( $(window).height() - $(".overlayBox").height() )/2 -20,position:"absolute"});	
+            $("body").css({overflow:"hidden"});
+            $("html").css({overflow:"hidden"});
+            $(".bgCover").css({width: $(window).width(),height:$(window).height()});
+        }
+    
+    function doOverlayOpen() {
+            isOpen = true;
+            showOverlayBox();
+            $(".bgCover").fadeIn(fadeSpeed);	
+            return false;
+        }
+    
+    function doOverlayClose() {
+            isOpen = false;
+            $(".overlayBox").css({display:"none"});
+            $("body").css({overflow:"auto"});
+            $("html").css({overflow:"auto"});
+            $(".bgCover").fadeOut(fadeSpeed);	
+        }
+        $(window).bind("resize",showOverlayBox);
+        $("a.launchLink").click( doOverlayOpen );
+        $("a.closeLink").click( doOverlayClose );
+    });
+</script>
+
+</body>
+</html>
+
+
+<!--  http://kalyanchakravarthy.net/mystuff/scripts/jquery_overlaybox/  -->
+<!-- http://benjaminlupu.net/misc/2009-01-18/  -->

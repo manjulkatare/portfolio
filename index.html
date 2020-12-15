@@ -1,0 +1,625 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Welcome to MyKreativity Dot Com</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!--[if gte IE 7]>
+        <link rel="stylesheet" type="text/css" href="css/ie7.css" media="all">
+    <![endif]-->
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" type="text/css" href="css/ie6funeral.css" media="all">
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/css3.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/validationEngine.jquery.css" media="all" />
+    <script src="js/jquery.tools.min.js" type="text/javascript"></script>
+    <script src="js/jquery.validationEngine-en.js" type="text/javascript"></script>
+    <script src="js/jquery.validationEngine.js" type="text/javascript"></script>
+    <script src="js/ext.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.spritely-0.1.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(function () { 
+            var img = new Image();
+            $(img).load(function () {
+                $(this).hide(); 
+                $('#tt1').removeClass('loading').append(this);
+                $(this).fadeIn();
+            }).error(function () {
+            }).attr('src', 'images/mission_peak_art.jpg');
+        });
+      
+    </script>
+    
+    <div id="header">
+        <p class="welcometext"><span>Bonjour,</span> Thank you for stopping by.<br />
+        My name is Mann, and i'm web designer &amp; developer. I live in bay area california and have been involved in the world of internet since 1999.</p>
+    </div>
+    <!-- Nav bar above the scrolling image box -->
+    <div id="navbar">
+        <ul id="flowtabs">
+            <li><a id="t1" href="#" onclick="$.validationEngine.closePrompt('.formError',true); return false;">Home</a></li>
+            <li><a id="t2" href="#" onclick="$.validationEngine.closePrompt('.formError',true)">Work</a></li>
+            <li><a id="t3" href="#" onclick="$.validationEngine.closePrompt('.formError',true)">Services</a></li>
+            <li><a id="t4" href="#" onclick="$.validationEngine.closePrompt('.formError',true)">Why Me</a></li>
+            <li><a name="cont5" id="t5" href="#" onclick="$.validationEngine.closePrompt('.formError',true)">Contact Me</a></li>
+        </ul>
+    </div>
+    <!-- tab panes -->
+    <div id="flowpanes">
+        <!-- wrapper for scrollable items -->
+        <div class="items">
+            <!-- the items -->
+            <div id="tt1" class="loading">
+                <div class="content">
+                    <div class="home">
+                        <p><span>"Web Designing is an Art",</span> a creation of digital environments that facilitate and encourage human activity.
+                        I aim to create unique, elegant, intelligent, user friendly and functional websites. 
+                        I like challenging the boundaries and love to work in the world of art and design.
+                        I not only design the websites, but also design the graphics so that it matches the whole concept, As
+                        one picture can define a thousand words. I have a special interest in working for sustainable businesses 
+                        and organizations in the non-profit and spiritual sectors.</p>
+                        <p>Let me help you create the perfect image for your business with beautiful web site! </p>
+                    </div>
+                </div>
+            </div>
+            <div id="tt2">
+                <div class="content">
+                    <div class="portfolio">
+                        <p>My portfolio is a collection of professional experience along with freelancing web development work. I have an experience working 
+                        for small company to the world's most admired company.</p>
+                        <p>Please click on below links for brief work experience:</p>
+                        <div id="acc2">
+                            <h2 class="current capitalone">First pane</h2>
+                            <div class="pane" style="display:block;">
+                                <p>Worked on www.capitalonemortage.com, a portal based on EM3 iOn content management system. 
+                                The main foucsed areas were User research, Interaction design &amp; Usability testing. 
+                                Dealt with complex JSP widgets &amp; JavaScript based buckets using CMS.</p>
+                            </div>
+                            <h2 class="microsoft">Second pane</h2>
+                            <div class="pane">
+                                <p>Worked on a project called "Jump-Start" an e-commerce web application. I was responsible to develop the 
+                                user interface derivation from business processes including its wireframe &amp; prototype. 
+                                The tools used during the development were XHTML, VISIO, CSS &amp; ASP.NET in Dot Net environment.</p>
+                            </div>
+                            <h2 class="google">Third pane</h2>
+                            <div class="pane">
+                                <p>Worked with Google's CHORME team to analysis the browser's behavior for rendering HTML DOM objects &amp; CSS properties. It was an intensive project w.r.t CSS properties. The responsibilities involved bug tracking, reproduction &amp; filing with analysis report.</p>
+                            </div>
+                            <h2 class="ebay">Fourth pane</h2>
+                            <div class="pane">
+                                <p>Worked with Ebay's Direct Marketing Group to develop a dynamic campaign's for www.eBay.com, The tool used during this project was Flash-CS Action Script 3.0 framework, Flex2.0,  XML and TeraData.</p>
+                            </div>
+                            <h2 class="apple">Fifth pane</h2>
+                            <div class="pane">
+                                <p>Presently working with Apple, its an another very challenging UI Engineer position with wonderful opportunity, where I'm learning new things everyday.</p>
+                            </div>
+                        </div>
+                        <p>My web development specific certifications:</p>
+                        <div id="acc3">
+                            <img src="images/logow3c.png"  alt="image" />
+                            <div style="width: 200px; display: block;">
+                                <h3>W3Schools Online Certification</h3>
+                                <p>XHTML CSS Developer Certification by W3 Schools</p>
+                            </div><img src="images/logobrainbench.png"  alt="image"  />
+                            <div>
+                                <h3>HTML Certification</h3>
+                                <p>HTML Developer Certification by BrainBench.</p>
+                            </div><img src="images/logobrainbench.png" alt="image"  />
+                            <div>
+                                <h3>Web Design Concepts Certification</h3>
+                                <p>Web Design Concepts Certification by BrainBench.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tt3">
+                <div class="content">
+                    <div class="services1">
+                        <p>Website development<br />
+                        e-Commerce<br />
+                        Content Management System<br />
+                        Wire-framing<br />
+                        Graphic Design<br />
+                        Print-media design<br />
+                        Branding<br />
+                        Flash Animation<br />
+                        Flex - Rich Internet App.<br />
+                        Database Inst. &amp; Config.<br />
+                        Search Engine Optimization<br />
+                        Live video streaming<br />
+                        Web Hosting<br />
+                        Doc conversion<br />
+                        LAMP Development<br />
+                        Dot Net Development<br />
+                        App. Migration Services<br />
+                        iPhone App designs<br />
+                        &amp; many more .....</p>
+                    </div>
+                    <div class="services2">
+                        <p>I can help you maximize your web presence from logo creation &amp; website development to domain name 
+                        registration &amp; search engine optimization, Weather you need an entire Flash animated, XHTML/CSS or 
+                        E-commerce website from the scratch, a business website design or redesign. i can customize an affordable
+                        website package that stays within your budget and delivers results.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tt4">
+                <div class="content">
+                    <div class="whyme">
+                        <p>My name is Mann, I'm multi-talented professional with almost 10yrs. of experience in the web development
+                        and Microsoft, Google, Capital One, eBay &amp; Apple are my career milestones. I specialize in web
+                        designing &amp; development using all different kind of cutting edge technologies like
+                        XHTML, CSS, JavaScript, Ajax, XML, ASP, JSP, jQuery,PHP My SQL &amp; Action Script.
+                        I posses unique ability to combine designing aptitude with technical skills and because of different
+                        areas i'm skilled in, I like to call myself a Web Architect.<br />
+                        <br />
+                        Utilizing expertise in graphic design and development. I do wire-framing, maintain existing websites,
+                        update &amp; publish web content and validate with W3C &amp; ADA standards as well......... Basically, I do websites from A to Z.<br />
+                        <br />
+                        If you are interested in professional web services, Please contact me.<br />
+                        <br />
+                        I look forward to hear from you!</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tt5">
+                <div class="content">
+                    <div class="contactme">
+                        <form id="contactform" class="formular" method="post" action="">
+                            <fieldset>
+                                <legend>Get In Touch With Me</legend>
+                                <label><span>Your Name :</span> <input class="validate[required,custom[onlyLetter],length[0,100]] text-input" type="text" name="yname" id="yname" value="" /></label>
+                                <label><span>Email address :</span> <input class="validate[required,custom[email]] text-input" type="text" name="yemail" id="yemail" value="" /></label>
+                                <label><span>Telephone :</span> <input type="text" id="ytelephone" name="ytelephone" class="validate[required,custom[telephone]] text-input" value="" /></label>
+                                <label><span>Question/Comment/Suggestion :</span> 
+                                <textarea id="ycomments" name="ycomments" rows="5" cols="10" class="validate[required,length[6,300]] text-input" ></textarea></label> 
+                                <input class="submit" type="submit" value="Send" />
+                            </fieldset>
+                        </form>
+                        <p class="contacttext">If you experience a problem with contact form or want to send an email with some details, example or anything.
+                        <!-- <br /><br />You can write me an email to manjulkatare@gmail.com</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br style="clear:both;"/>
+    </div>
+    
+    <div id="acc1">
+        <h2 class="current"><a href="#">Web Designs</a></h2>
+        <div class="pane" style="display:block;">
+            <!-- trigger elements -->
+            <div class="triggers">
+                <a id="thumb1" rel="#mies1" href="#"><img src="images/thumbnail1.jpg"  alt="image" /></a>
+                <a id="thumb2" rel="#mies2" href="#"><img src="images/thumbnail2.jpg"  alt="image" /></a>
+                <a id="thumb3" rel="#mies3" href="#"><img src="images/thumbnail3.jpg"  alt="image" /></a>
+                <a id="thumb4" rel="#mies4" href="#"><img src="images/thumbnail4.jpg"  alt="image" /></a>
+                <a id="thumb5" rel="#mies5" href="#"><img src="images/thumbnail5.jpg"  alt="image" /></a>
+                <a id="thumb6" rel="#mies6" href="#"><img src="images/thumbnail6.jpg"  alt="image" /></a>
+                <a id="thumb7" rel="#mies7" href="#"><img src="images/thumbnail7.jpg"  alt="image" /></a>
+                <a id="thumb8" rel="#mies8" href="#"><img src="images/thumbnail8.jpg"  alt="image" /></a>
+                <a id="thumb9" rel="#mies9" href="#"><img src="images/thumbnail9.jpg"  alt="image" /></a>
+                <a id="thumb10" rel="#mies10" href="#"><img src="images/thumbnail10.jpg" alt="image" /></a>
+                <a id="thumb11" rel="#mies11" href="#"><img src="images/thumbnail11.jpg" alt="image" /></a>
+                <a id="thumb12" rel="#mies12" href="#"><img src="images/thumbnail12.jpg" alt="image" /></a>
+                <br style="clear:both;" />
+            </div><!-- overlays -->
+            <div class="simple_overlay" id="mies1">
+                <img src="images/mainimage1.jpg" alt="image"/>
+                <div class="details">
+                    <h3>Enchant Magazine( Illumination of beauty )</h3>
+                    <h4>Website : <a href="#" onclick="window.open('http://www.enchantmagazine.com');return false;">http://www.enchantmagazine.com</a></h4>
+                    <p>Its a Flash based website for the fashion magazine company.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies2">
+                <img src="images/mainimage2.jpg"  alt="image"/>
+                <div class="details">
+                    <h3>Elite Homes Magazine ( Showcasing exceptional realtors &amp; elite homes )</h3>
+                    <h4>Website : <a href="#" onclick="window.open('http://www.elitehomesmagazine.com');return false;">http://www.elitehomesmagazine.com</a></h4>
+                    <p>Its a Flash based website for the elite homes magazine company.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies3">
+                <img src="images/mainimage3.jpg"  alt="image" />
+                <div class="details">
+                    <h3>East Coast Energy ( Your personal trainer &amp; nutritional consultant )</h3>
+                    <h4>Website : <a href="#" onclick="window.open('http://www.eastcoastenergy.net');return false;">http://www.eastcoastenergy.net</a></h4>
+                    <p>Its a Flash based website for the personal trainer &amp; nutritional consultant company.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies4">
+                <img src="images/mainimage4.jpg"  alt="image"/>
+                <div class="details">
+                    <h3>CreekSide School ( nonprofit private school dedicated to children )</h3>
+                    <h4>Website : <a href="#"  onclick="window.open('http://www.creeksideschool.org');return false;">http://www.creeksideschool.org</a></h4>
+                    <p>Its a HTML/CSS based website for nonprofit private school dedicated to children.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies5">
+                <img src="images/mainimage5.jpg"  alt="image" />
+                <div class="details">
+                    <h3>Show Time Collections ( Prom, Pageant and Cocktail dresses )</h3>
+                    <h4>Website : <a href="#"  onclick="window.open('http://www.showtimecollection.com');return false;">http://www.showtimecollection.com</a></h4>
+                    <p>Its a HTML based website for the Prom, Pageant and Cocktail dresses company.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies6">
+                <img src="images/mainimage6.jpg"  alt="image"/>
+                <div class="details">
+                    <h3>Sankara Eye Foundation ( Give The Gift Of Vision )</h3>
+                    <h4>Website : <a href="#">http://www.giftofvision.org</a> (Its a proposed design thats going to be live very soon.)</h4>
+                    <p>Its a HTML/CSS based design for Sankara Eye Foundation, a non profit organization.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies7">
+                <img src="images/mainimage7.jpg"  alt="image"/>
+                <div class="details">
+                    <h3>Trans World Consultancy</h3>
+                    <h4>Website : <a href="#"  onclick="window.open('http://www.transworldcon.com');return false;">http://www.transworldcon.com</a></h4>
+                    <p>Its a Flash based website for Trans World Consultancy</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies8">
+                <img src="images/mainimage8.jpg"  alt="image"/>
+                <div class="details">
+                    <h3>New Bazaar e-shopping Solutions</h3>
+                    <h4>Website : <a href="#"  onclick="window.open('http://www.newbazaar.in');return false;">http://www.newbazaar.in</a></h4>
+                    <p>Its a Joomla Content Managment System based website for e-shopping.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies9">
+                <img src="images/mainimage9.jpg" alt="image" />
+                <div class="details">
+                    <h3>Yippeeo! &nbsp;&nbsp; - &nbsp;&nbsp; Find everything local</h3>
+                    <h4>Website : <a href="#"  onclick="window.open('http://www.yippeeo.com');return false;">http://www.yippeeo.com</a></h4>
+                    <p>Its a Drupal Content Management System based website for social networking website company.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies10">
+                <img src="images/mainimage10.jpg"  alt="image" />
+                <div class="details">
+                    <h3>Funny Cat Prints</h3>
+                    <h4>Website : <a href="#"  onclick="window.open('http://www.funnycatprints.com');return false;">http://www.funnycatprints.com</a></h4>
+                    <p>Its a OS Commerce based ecommerce website to sell funny cat prints.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies11">
+                <img src="images/mainimage11.jpg" alt="image" />
+                <div class="details">
+                    <h3>Capital One Mortgage</h3>
+                    <h4>Website : <a href="#"  onclick="window.open('http://www.capitalonemortgage.com');return false;">http://www.capitalonemortgage.com</a></h4>
+                    <p>Its a EM3 iOn Content Management System based website for Capital One Mortgage company.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies12">
+                <img src="images/mainimage12.jpg" alt="image" />
+                <div class="details">
+                    <h3>Central Business Solutions LLC</h3>
+                    <h4>Website : <a href="#"  onclick="window.open('http://www.cbsinfosys.com');return false;">http://www.cbsinfosys.com</a></h4>
+                    <p>Its a Joomla Content Management System based website for the IT-software consulting company.</p>
+                </div>
+            </div>
+        </div>
+        <h2><a href="#">Graphic Design &amp; Illustration</a></h2>
+        <div class="pane">
+            <!-- trigger elements -->
+            <div class="triggers">
+                <a id="thumb13" rel="#mies13" href="#"><img src="images/thumbnail13.jpg" alt="image" /></a>
+                <a id="thumb14" rel="#mies14" href="#"><img src="images/thumbnail14.jpg" alt="image" /></a> 
+                <a id="thumb15" rel="#mies15" href="#"><img src="images/thumbnail15.jpg" alt="image" /></a>
+                <a id="thumb16" rel="#mies16" href="#"><img src="images/thumbnail16.jpg" alt="image" /></a>
+                <a id="thumb17" rel="#mies17" href="#"><img src="images/thumbnail17.jpg" alt="image" /></a> 
+                <a id="thumb18" rel="#mies18" href="#"><img src="images/thumbnail18.jpg" alt="image" /></a>
+                <br style="clear:both;" />
+            </div><!-- overlays -->
+            <div class="simple_overlay" id="mies13">
+                <img src="images/mainimage13.jpg"  alt="image" />
+                <div class="details">
+                    <h3>Example of Product Illustration using Photoshop CS</h3>
+                    <p>3D Product Design</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies14">
+                <img src="images/mainimage14.jpg" alt="image" />
+                <div class="details">
+                    <h3>Example of product modeling using Photoshop CS</h3>
+                    <p>2D Product modeling.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies15">
+                <img src="images/mainimage15.jpg"  alt="image" />
+                <div class="details">
+                    <h3>Plastic face design using Photoshop CS</h3>
+                    <p>Plastic face design</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies16">
+                <img src="images/mainimage16.jpg"  alt="image" />
+                <div class="details">
+                    <h3>Realistic license plate design using Photoshop CS</h3>
+                    <p>Realistic license plate design</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies17">
+                <img src="images/mainimage17.jpg"  alt="image" />
+                <div class="details">
+                    <h3>Realistic cloud with lightening effect using Photoshop CS</h3>
+                    <p>Realistic cloud design</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies18">
+                <img src="images/mainimage18.jpg"  alt="image" />
+                <div class="details">
+                    <h3>Face Modification with Avatar effect</h3>
+                    <p>Face Modification</p>
+                </div>
+            </div>
+        </div>
+        <h2><a href="#">Logo Designs</a></h2>
+        <div class="pane">
+            <p class="panetext"><b>The Logo &nbsp;:&nbsp; " Being a central tool for branding, a logo expresses the company's vision, values, and directions."</b><br/><br/>
+            I specialize in logo design to create a positive first impression on your clients. I create high quality custom design for all types of businesses,
+            corporate identity, and business stationery designs, And assist in creating a strong impression. I work to provide your company with the most unique,
+            attractive, and professional logo designs. Please review some of my logo design here.</p>
+            <!-- trigger elements -->
+            <div class="triggers">
+                <a id="thumb19" rel="#mies19" href="#"><img src="images/thumbnail19.jpg" alt="image" /></a>
+                <a id="thumb20" rel="#mies20" href="#"><img src="images/thumbnail20.jpg" alt="image" /></a>
+                <a id="thumb21" rel="#mies21" href="#"><img src="images/thumbnail21.jpg" alt="image" /></a>
+                <a id="thumb22" rel="#mies22" href="#"><img src="images/thumbnail22.jpg" alt="image" /></a>
+                <a id="thumb23" rel="#mies23" href="#"><img src="images/thumbnail23.jpg" alt="image" /></a>
+                <a id="thumb24" rel="#mies24" href="#"><img src="images/thumbnail24.jpg" alt="image" /></a>
+                <br style="clear:both;" />
+            </div><!-- overlays -->
+            <div class="simple_overlay" id="mies19">
+                <img src="images/mainimage19.jpg"  alt="image" />
+                <div class="details">
+                    <h3>East Coast Energy</h3>
+                    <p>The logo design demonstrates east coast location with barbells. The conception is all about the fitness club in east coast.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies20">
+                <img src="images/mainimage20.jpg" alt="image" />
+                <div class="details">
+                    <h3>Eye-Folder</h3>
+                    <p>The logo design demonstrates a document folder with an eye. The conception is you save your document online and securely access it worldwide.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies21">
+                <img src="images/mainimage21.jpg" alt="image" />
+                <div class="details">
+                    <h3>YippeeO</h3>
+                    <p>The logo design demonstrates a person having fun with social network community.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies22">
+                <img src="images/mainimage22.jpg" alt="image" />
+                <div class="details">
+                    <h3>Exup Inc.</h3>
+                    <p>The logo design reflects the Exup Incorporation's work, As they deal into sales, design, consulting, and project management services for building "GREEN" structures.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies23">
+                <img src="images/mainimage23.jpg" alt="image" />
+                <div class="details">
+                    <h3>SkillExam - Online Test Site</h3>
+                    <p>The logo design reflects the Skills, Knowledge &amp; Abilities in a form of light</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies24">
+                <img src="images/mainimage24.jpg" alt="image" />
+                <div class="details">
+                    <h3>Job 360 degree</h3>
+                    <p>The logo design demonstrates the jobs availability all 360 degrees.</p>
+                </div>
+            </div>
+        </div>
+        <h2><a href="#">Print Media Designs</a></h2>
+        <div class="pane">
+            <p class="panetext"><b>"Print media is still the most visible and enduring medium for communication."</b><br />
+            <br />
+            Please review these print media designs made for one of my client. I tried to maintain the consistency in design for CD &amp; Book cover with other object like flyer, brochure, visiting card &amp; registration form.</p>
+            <!-- trigger elements -->
+            <div class="triggers">
+                <a id="thumb25" rel="#mies25" href="#"><img src="images/thumbnail25.jpg" alt="image" /></a>
+                <a id="thumb26" rel="#mies26" href="#"><img src="images/thumbnail26.jpg" alt="image" /></a>
+                <a id="thumb27" rel="#mies27" href="#"><img src="images/thumbnail27.jpg" alt="image" /></a> 
+                <a id="thumb28" rel="#mies28" href="#"><img src="images/thumbnail28.jpg" alt="image" /></a>
+                <a id="thumb29" rel="#mies29" href="#"><img src="images/thumbnail29.jpg" alt="image" /></a>
+                <a id="thumb30" rel="#mies30" href="#"><img src="images/thumbnail30.jpg" alt="image" /></a>
+                <br style="clear:both;" />
+            </div>
+            <div class="simple_overlay" id="mies25">
+                <img src="images/mainimage25.jpg" alt="image" />
+                <div class="details">
+                    <p>The CD cover design.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies26">
+                <img src="images/mainimage26.jpg" alt="image" />
+                <div class="details">
+                    <p>The magazine cover design.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies27">
+                <img src="images/mainimage27.jpg" alt="image" />
+                <div class="details">
+                    <p>The flyer/registration form design.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies28">
+                <img src="images/mainimage28.jpg" alt="image" />
+                <div class="details">
+                    <p>The campaign card design.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies29">
+                <img src="images/mainimage29.jpg" alt="image" />
+                <div class="details">
+                    <p>The envelope design.</p>
+                </div>
+            </div>
+            <div class="simple_overlay" id="mies30">
+                <img src="images/mainimage30.jpg" alt="image" />
+                <div class="details">
+                    <p>The business card design.</p>
+                </div>
+            </div>
+        </div>
+        <h2><a href="#" id="testimonials">Testimonials</a></h2>
+        <div class="pane">
+            <div id="testimonial">
+                <div class="tcontainer">
+                    <img class="userpic" src="images/usericon.png" alt="image" />
+                    <p class="tquote">"You made the process so easy that it was done without my intervention at all! I'm very impressed!"</p>
+                    <p class="ttext">It has been a pleasure working with Mann. He made the process so easy that it was done without my intervention at all.
+                        The whole process from initial consultation to final deliverables was very professional. 
+                        The design creativity was particularly impressive and the support subsequent to the site going live has been excellent. 
+                        I thoroughly recommend him for design and website development...</p>
+                    <p class="postinginfo">By : Lloyd Harvey <span>[ President, Earforms LLC ]</span></p>
+                </div>
+                <div class="tcontainer">
+                    <img class="userpic" src="images/usericon.png" alt="image" />
+                    <p class="tquote">"It's nice to know that there are still people who truly care."</p>
+                    <p class="ttext"> "You did an Awesome job on my site. Thanks for the great support and the patience you showed me when I kept changing my mind 
+                        as the site developed. It's nice to know that there are still people who truly care. I am getting very good feedback on my website...well done.
+                        Again thank you so much for the great service.  I've already referred a couple of people to you and will do more!
+                    </p>
+                    <p class="postinginfo">By : John Fedorjaka <span>[ RuffStuff Media Inc.] </span></p>
+                </div><br style="clear:both;" />
+            </div>
+        </div>
+    </div>
+    <div>&nbsp;</div>
+    <div id="footer">
+        <div id="fish" style="background-position:0px 0px;">&nbsp;</div>
+        <div class="flinks">
+            <p><a href="uinews.html" rel="#overlay1" class="first">UI News</a>
+                <a href="awardsnrecognition.html" rel="#overlay2">Awards and Recognition</a>
+                <a href="#testimonials" onclick="$('#testimonials').click();">Testimonials</a>
+                <a href="#cont5" onclick="$('#t5').click();">Contact Me</a>
+            </p>
+        </div>
+    </div>
+    <div id="underfooter">
+        <div>
+            <p class="righttext">Valid <a href="#" onclick="window.open('http://validator.w3.org/check?uri=http://www.mykreativity.com');return false;">XHTML 1.0 Strict!</a> &amp; <a href="#" onclick="window.open('http://jigsaw.w3.org/css-validator/validator?uri=www.mykreativity.com/css/main.css');return false;">CSS 3.0</a></p>
+            <p>Copyright for any material published on this website is reserved by MyKreativity.com</p>
+        </div>
+    </div>
+    <!-- IE6.0 special  -->
+    <div id="iefuneralbox">
+        <div class="leftbox">
+            <img src="../images/ie6funeral.gif" width="366" height="520" alt="IE6 Funeral" />
+        </div>
+        <div class="rightbox">
+            <p>Users who come to this site using IE6 will see this page. I'm focusing on creating a better experience for the users with modern browsers.</p>
+            <h3>What's Wrong With IE6?</h3>
+            <ul>
+                <li>Lack of support for current standards for HTML markup, CSS, etc.</li>
+                <li>Support for non-standard features not compatible with other browsers</li>
+                <li>No PNG transparency support</li>
+                <li>Released in 2001, we've completely moved beyond everything about IE6. This is a browser that PC World rated one of the worst tech products of all time.</li>
+            </ul>
+            <h3>Some of the IT companies dropping support for IE6.0</h3>
+            <p><a href="http://news.cnet.com/8301-30684_3-10444574-265.html">Google phasing out support for IE6</a><br/><br/>
+                <a href="http://37signals.com/svn/posts/1072-apples-mobileme-drops-support-for-ie-6">Apple's MobileMe drops support for IE 6</a><br/><br/>
+                <a href="http://techcrunch.com/2009/07/14/youtube-will-be-next-to-kiss-ie6-support-goodbye/">YouTube Will Be Next To Kiss IE6 Support Goodbye</a>
+            </p>
+            <p>Internet Explorer 6.0, resident of the interwebs for over 8 years, died the morning of March 1, 2010 in Mountain View - California,
+            as a result of a workplace injury sustained at the headquarters of Google, Inc. Internet Explorer 6.0, known to friends and family as IE6, 
+            is survived by son Internet Explorer Seven, and grand-daughter Internet Explorer Eight.</p>
+            <p><a href="http://www.ie6funeral.com">More info...</a></p>
+        </div><br style="clear:both;" />
+    </div>
+    <!-- overlayed element for UI News and Blog Link -->
+    <div class="apple_overlay" id="overlay1">
+        <div class="contentWrap"></div>
+    </div>
+    
+    <div class="apple_overlay" id="overlay2">
+        <div class="contentWrap"></div>
+    </div>
+    
+    <!-- The white page starts from here -->
+    <h3 class="showhide"><a href="#" id="showextra" onclick="$('html,body').animate({scrollTop: $('#showextra').offset().top}, 1200);" class="slider"></a></h3>
+    <div id="footerblock" style="display:none;">
+        <div id="container">
+            <h1>Website &amp; Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies &amp; humours. And i just love it.</h1>
+            <div class="blocks">
+                <h5>My favorite websites</h5>
+                <ul>
+                    <li>www.w3.org</li>
+                    <li>www.positioniseverything.net</li>
+                    <li>www.alistapart.com</li>
+                    <li>www.w3schools.com</li>
+                    <li>www.smashingmagazine.com</li>
+                    <li>www.sitepoint.com.com</li>
+                    <li>www.456bereastreet.com</li>
+                    <li>www.particletree.com</li>
+                    <li>www.apple.com</li>
+                    <li>www.pearsonified.com</li>
+                    <li>www.snook.com</li>
+                    <li>www.ilovetypography.com</li>
+                    <li>www.webdesignerwall.com</li>
+                    <li style="list-style: none"><br /></li>
+                    <li>And of course mine!</li>
+                    <li>www.MyKreativity.com</li>
+                </ul>
+                <h5>Why my portfolio is designed in Black &amp; white ?</h5>
+                <p>I'm a natural artist &amp; designer with an engineering background. I feel that black &amp; white in some cases looks better and smoother. Black and white is more cohesive and has more unity, especially in an environment, we control all <a href="#" onclick="window.open('http://www.december.com/html/spec/color0.html');return false;">gray color combination</a>. It has a different feelings, different emotion than color does. It can also have a more honest and quiet feel. And thats why i decided to design my portfolio in black &amp; white shades. My creativity is here for your reviews, i would be glad to hear any comment on it.</p>
+            </div>
+            <div class="blocks" style="margin-left:30px;">
+                <h5>What tool do i use for web designing &amp; development.</h5>
+                <ul id="tools">
+                    <li>JavaScript, Ajax &amp; DOM to build complex interaction between the front-end &amp; back-end.</li>
+                    <li>User Interface development using leading JavaScript Frameworks (JQuery, YUI, Dojo).</li>
+                    <li>Hand coded CSS / XHTML to develop table-less designs across multiple browsers and platforms.</li>
+                    <li>Object Oriented PHP with MySQL database.</li>
+                    <li>Drupal, Joomla CMS Installation and customization.</li>
+                    <li>Source Code management with CVS, SVN (Installation, repository creation), Tortoise, Smart SVN front end GUI.</li>
+                    <li>Vector graphics creation with Photoshop CS &amp; Illustrator.</li>
+                    <li>Vector graphics based animation using Flash CS.</li>
+                    <li>Rich Internet Application using Flex.</li>
+                    <li>I like working on Mac but i also work on Windows &amp; Linux.</li>
+                </ul>
+            </div>
+            <div class="blocks" style="margin-left:30px;">
+                <h5>The design process i follow.</h5>
+                <ul>
+                    <li>Information Gathering <span class="info">( A very first step to collect information [cotent], ideas, goals, purpose, requirement, target audience &amp; some reference or samples, if any.)</span></li>
+                    <li>Site map <span class="info">( A visual model of a Web site's content that allows users to navigate through the website. )</span></li>
+                    <li>Wire-framing <span class="info">( A basic visual guide for interface design to suggest the structure of a website. )</span></li>
+                    <li>Prototyping <span class="info">( I usually prototype a Web page in Adobe Photoshop or Illustrator where I can use the layers to show or hide alternative elements, moving them about the page until I get a LOOK &amp; FEEL that i'm happy with. )</span></li>
+                    <li>User experience <span class="info">( An understanding and designing a user's experience from start to finish. eg: Is the product findable? When you get it, do you understand what it is and then how to use it? And if it works, is it desirable? )</span></li>
+                    <li>XTML &amp; CSS <span class="info">( I use CSS to describe the presentation semantics - the look and formatting for XHTML markup language based webpage.)</span></li>
+                    <li>Image Processing <span class="info">( Image processing involves preparing an image to convey the essence of enterprise and use for informative purposes. As the images are very effective in communication between any company and the viewer. )</span></li>
+                    <li>Server side programming <span class="info">( I use ASP, ASP.NET, PHP, JSP &amp; ColdFusion for server side programming. )</span></li>
+                    <li>Testing &amp; Publishing <span class="info">( A process involve testing of performance issues like loading, cross browsers, resolutions &amp; user interactions. Once i receive the approval [go], publish the web content to www.)</span></li>
+                    <li>Maintenance <span class="info">( A process involve future changes in webpage with respect to content or its functionality. )</span></li>
+                </ul>
+            </div><br style="clear:both;" />
+        </div>
+    </div>
+    
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6638958-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
