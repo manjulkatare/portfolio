@@ -1,65 +1,166 @@
 [
    {
-      "accordian":"accordian1",
+      "accordian":"Web Design",
       "thunmbnail":[
          {
-            "imageurl":"mainimage1.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail1.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com", 
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail2.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
          },
          {
-            "imageurl":"mainimage2.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail3.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com", 
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail4.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
          },
          {
-            "imageurl":"mainimage3.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail5.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com", 
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail6.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail7.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com", 
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail8.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail9.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com", 
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail10.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
          }
       ]},
     {
-      "accordian":"accordian2",
+      "accordian":"Graphic Design & Illustration",
       "thunmbnail":[
          {
-            "imageurl":"mainimage1.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail11.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
          },
          {
-            "imageurl":"mainimage2.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail12.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
          },
          {
-            "imageurl":"mainimage3.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail13.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail14.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },         
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail15.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
          }
       ]},
     {
-      "accordian":"accordian3",
+         "accordian":"Logo Designs",
+         "thunmbnail":[
+            {
+               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail11.jpg",
+               "title":"Image-1-Title",
+               "workurl":"http://www.mykreativity.com",
+               "description":"test description"
+            },
+            {
+               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail12.jpg",
+               "title":"Image-1-Title",
+               "workurl":"http://www.mykreativity.com",
+               "description":"test description"
+            },
+            {
+               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail13.jpg",
+               "title":"Image-1-Title",
+               "workurl":"http://www.mykreativity.com",
+               "description":"test description"
+            },
+            {
+               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail14.jpg",
+               "title":"Image-1-Title",
+               "workurl":"http://www.mykreativity.com",
+               "description":"test description"
+            },
+            {
+               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail15.jpg",
+               "title":"Image-1-Title",
+               "workurl":"http://www.mykreativity.com",
+               "description":"test description"
+            }
+         ]},
+
+    {
+      "accordian":"Print Media Designs",
       "thunmbnail":[
          {
-            "imageurl":"mainimage1.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail16.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
          },
          {
-            "imageurl":"mainimage2.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail17.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
          },
          {
-            "imageurl":"mainimage3.jpg",
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail18.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail19.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail20.jpg",
             "title":"Image-1-Title",
             "workurl":"http://www.mykreativity.com",
             "description":"test description"
