@@ -153,24 +153,24 @@
                "title":"Image-1-Title",
                "workurl":"http://www.mykreativity.com",
                "description":"test description"
-            },
-            {
-               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail25.jpg",
-               "title":"Image-1-Title",
-               "workurl":"http://www.mykreativity.com",
-               "description":"test description"
-            },
-            {
-               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail26.jpg",
-               "title":"Image-1-Title",
-               "workurl":"http://www.mykreativity.com",
-               "description":"test description"
-            }           
+            }         
          ]},
 
     {
       "accordian":"Print Media Designs",
       "thunmbnail":[
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail25.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail26.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },  
          {
             "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail27.jpg",
             "title":"Image-1-Title",
