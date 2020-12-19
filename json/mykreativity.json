@@ -1,67 +1,69 @@
-{
-  "accordian": {
-    "accordian1": {
-      "thunmbnail": 
-        [ {
-        "imageurl":"mainimage1.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        },
-        {
-         "imageurl":"mainimage2.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        },
-        {
-         "imageurl":"mainimage3.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        } ]
-    },
-    "accordian2": {
-      "thunmbnail":
-        [ {
-        "imageurl":"mainimage1.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        },
-        {
-         "imageurl":"mainimage2.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        },
-        {
-         "imageurl":"mainimage3.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        } ]
-    },
-    "accordian3": {
-      "thunmbnail":
-        [ {
-        "imageurl":"mainimage1.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        },
-        {
-         "imageurl":"mainimage2.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        },
-        {
-         "imageurl":"mainimage3.jpg",
-         "title":"Image-1-Title",
-         "workurl":"http://www.mykreativity.com",
-         "description":"test description"
-        } ]
-    }
-  }
-}
+[
+   {
+      "accordian":"accordian1",
+      "thunmbnail":[
+         {
+            "imageurl":"mainimage1.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"mainimage2.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"mainimage3.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         }
+      ]},
+    {
+      "accordian":"accordian2",
+      "thunmbnail":[
+         {
+            "imageurl":"mainimage1.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"mainimage2.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"mainimage3.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         }
+      ]},
+    {
+      "accordian":"accordian3",
+      "thunmbnail":[
+         {
+            "imageurl":"mainimage1.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"mainimage2.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         },
+         {
+            "imageurl":"mainimage3.jpg",
+            "title":"Image-1-Title",
+            "workurl":"http://www.mykreativity.com",
+            "description":"test description"
+         }
+      ]
+   }
+]
