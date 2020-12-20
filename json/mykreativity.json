@@ -4,87 +4,99 @@
       "thunmbnail":[
          {  
             "id" : 1,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail1.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com", 
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail1.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage1.jpg",
+            "title":"Enchant Magazine (Illumination of beauty)",
+            "workurl":"http://www.enchantmagazine.com", 
+            "description":"Its a Flash based website for the fashion magazine company."
          },
          {
             "id" : 2,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail2.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail2.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage2.jpg",
+            "title":"Elite Homes Magazine (Showcasing exceptional realtors & elite homes)",
+            "workurl":"http://www.elitehomesmagazine.com",
+            "description":"Its a Flash based website for the elite homes magazine company."
          },
          {
             "id" : 3,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail3.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com", 
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail3.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage3.jpg",
+            "title":"East Coast Energy (Your personal trainer & nutritional consultant)",
+            "workurl":"http://www.eastcoastenergy.net", 
+            "description":"Its a Flash based website for the personal trainer & nutritional consultant company."
          },
          {
             "id" : 4,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail4.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail4.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage4.jpg",
+            "title":"CreekSide School (Nonprofit private school dedicated to children)",
+            "workurl":"http://www.creeksideschool.org",
+            "description":"Its a HTML/CSS based website for nonprofit private school dedicated to children."
          },
          {
             "id" : 5,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail5.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com", 
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail5.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage5.jpg",
+            "title":"Show Time Collections (Prom, Pageant and Cocktail dresses)",
+            "workurl":"http://www.showtimecollection.com", 
+            "description":"Its a HTML based website for the Prom, Pageant and Cocktail dresses company."
          },
          {
             "id" : 6,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail6.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail6.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage6.jpg",
+            "title":"Sankara Eye Foundation (Give The Gift Of Vision)",
+            "workurl":"http://www.giftofvision.org",
+            "description":"Its a HTML/CSS based design for Sankara Eye Foundation, a non profit organization."
          },
          {
             "id" : 7,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail7.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com", 
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail7.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage7.jpg",
+            "title":"Trans World Consultancy",
+            "workurl":"http://www.transworldcon.com", 
+            "description":"Its a Flash based website for Trans World Consultancy"
          },
          {
             "id" : 8,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail8.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail8.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage8.jpg",
+            "title":"New Bazaar e-shopping Solutions",
+            "workurl":"http://www.newbazaar.in",
+            "description":"Its a Joomla Content Managment System based website for e-shopping."
          },
          {
             "id" : 9,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail9.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com", 
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail9.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage9.jpg",
+            "title":"Yippeeo! Find everything local",
+            "workurl":"http://www.yippeeo.com", 
+            "description":"Its a Drupal Content Management System based website for social networking website company."
          },
          {
             "id" : 10,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail10.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail10.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage10.jpg",
+            "title":"Funny Cat Prints",
+            "workurl":"http://www.funnycatprints.com",
+            "description":"Its a OS Commerce based ecommerce website to sell funny cat prints."
          },
          {
             "id" : 11,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail11.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail11.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage11.jpg",
+            "title":"Capital One Mortgage",
+            "workurl":"http://www.capitalonemortgage.com",
+            "description":"Its a EM3 iOn Content Management System based website for Capital One Mortgage company."
          },
          {
             "id" : 12,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail12.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail12.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage12.jpg",
+            "title":"Central Business Solutions LLC",
+            "workurl":"http://www.cbsinfosys.com",
+            "description":"Its a Joomla Content Management System based website for the IT-software consulting company."
          }         
       ]},
     {
@@ -92,45 +104,51 @@
       "thunmbnail":[
          {
             "id" : 13,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail13.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail13.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage13.jpg",
+            "title":"Example of Product Illustration using Photoshop CS",
+            "workurl":"",
+            "description":"3D Product Design"
          },
          {
             "id" : 14,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail14.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail14.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage14.jpg",
+            "title":"Example of product modeling using Photoshop CS",
+            "workurl":"",
+            "description":"2D Product modeling."
          },
          {
             "id" : 15,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail15.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail15.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage15.jpg",
+            "title":"Plastic face design using Photoshop CS",
+            "workurl":"",
+            "description":"Plastic face design"
          },
          {
             "id" : 16,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail16.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail16.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage16.jpg",
+            "title":"Vehicle license plate design using Photoshop CS",
+            "workurl":"",
+            "description":"Vehicle license plate design"
          },         
          {
             "id" : 17,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail17.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail17.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage17.jpg",
+            "title":"Cloud with lightening effect using Photoshop CS",
+            "workurl":"",
+            "description":"Cloud with lightening effect"
          },
          {
             "id" : 18,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail18.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail18.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage18.jpg",
+            "title":"Face Modification with Avatar effect",
+            "workurl":"",
+            "description":"Face Modification"
          }
       ]},
     {
@@ -138,45 +156,51 @@
          "thunmbnail":[
             {
                "id" : 19,
-               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail19.jpg",
-               "title":"Image-1-Title",
-               "workurl":"http://www.mykreativity.com",
-               "description":"test description"
+               "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail19.jpg",
+               "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage19.jpg",
+               "title":"East Coast Energy",
+               "workurl":"http://www.eastcoastenergy.net",
+               "description":"The logo design demonstrates east coast location with barbells. The conception is all about the fitness club in east coast."
             },
             {
                "id" : 20,
-               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail20.jpg",
-               "title":"Image-1-Title",
-               "workurl":"http://www.mykreativity.com",
-               "description":"test description"
+               "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail20.jpg",
+               "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage20.jpg",
+               "title":"Eye Folder",
+               "workurl":"",
+               "description":"The logo design demonstrates a document folder with an eye. The conception is you save your document online and securely access it worldwide."
             },
             {
                "id" : 21,
-               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail21.jpg",
-               "title":"Image-1-Title",
-               "workurl":"http://www.mykreativity.com",
-               "description":"test description"
+               "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail21.jpg",
+               "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage21.jpg",
+               "title":"YippeeO",
+               "workurl":"http://www.yippeeo.com",
+               "description":"The logo design demonstrates a person having fun with social network community."
             },
             {
                "id" : 22,
-               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail22.jpg",
-               "title":"Image-1-Title",
-               "workurl":"http://www.mykreativity.com",
-               "description":"test description"
+               "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail22.jpg",
+               "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage22.jpg",,
+               "title":"Exup Inc.",
+               "workurl":"",
+               "description":"The logo design reflects the Exup Incorporation's work, As they deal into sales, design, consulting, and project management services for building GREEN structures."
             },
             {
                "id" : 23,
-               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail23.jpg",
-               "title":"Image-1-Title",
-               "workurl":"http://www.mykreativity.com",
-               "description":"test description"
+               "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail23.jpg",
+               "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage23.jpg",
+               "title":"SkillExam - Online Test Site",
+               "workurl":"",
+               "description":"The logo design reflects the Skills, Knowledge & Abilities in a form of light"
             },
             {
                "id" : 24,
-               "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail24.jpg",
-               "title":"Image-1-Title",
-               "workurl":"http://www.mykreativity.com",
-               "description":"test description"
+               "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail24.jpg",
+               "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage24.jpg",
+               "title":"Job 360 degree",
+               "workurl":"",
+               "description":"The logo design demonstrates the jobs availability all 360 degrees."
             }         
          ]},
 
@@ -185,45 +209,51 @@
       "thunmbnail":[
          {
             "id" : 25,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail25.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail25.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage25.jpg",
+            "title":"The CD cover design.",
+            "workurl":"",
+            "description":""
          },
          {
             "id" : 26,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail26.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail26.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage26.jpg",
+            "title":"The magazine cover design.",
+            "workurl":"",
+            "description":""
          },  
          {
             "id" : 27,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail27.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail27.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage27.jpg",
+            "title":"The flyer/registration form design",
+            "workurl":"",
+            "description":""
          },
          {
             "id" : 28,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail28.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail28.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage28.jpg",
+            "title":"The campaign card design",
+            "workurl":"",
+            "description":""
          },
          {
             "id" : 29,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail29.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail29.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage29.jpg",
+            "title":"An envelope design",
+            "workurl":"",
+            "description":""
          },
          {
             "id" : 30,
-            "imageurl":"https://manjulkatare.github.io/portfolio/images/thumbnail30.jpg",
-            "title":"Image-1-Title",
-            "workurl":"http://www.mykreativity.com",
-            "description":"test description"
+            "imageSmall":"https://manjulkatare.github.io/portfolio/images/thumbnail30.jpg",
+            "imageBig":"https://manjulkatare.github.io/portfolio/images/mainimage30.jpg",
+            "title":"The business card design",
+            "workurl":"",
+            "description":""
          }
       ]
    }
