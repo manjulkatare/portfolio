@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Work Experiences</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  rel='stylesheet' href="styles.css" type="text/css" media='all' />
+</head>
+<body class="work">
+  <header class="col-10 workPage">
+    <div class="menuSwitch" id="menuSwitch" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+  </header>
+  <main class="col-10" style="position: relative; margin-top:100px;">
+    <div id="keyboardTray">
+      <div class="keyboard">
+        <div class="key double"></div>
+        <div class="key 3"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key 14"></div>
+        <div class="key 15"></div>
+      </div>
+      <div class="keyboard">
+        <div class="key double"></div>
+        <div class="key 3"></div>
+        <div class="key"></div>
+        <div class="key"><a class="eBay" id="ebay" onmouseover="clickedElement(this.id)">E</a></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key 13"></div>
+        <div class="key 15"></div>
+      </div>
+      <div class="keyboard">
+        <div class="key double"></div>
+        <div class="key 3"><a class="apple" id="apple" onmouseover="clickedElement(this.id)">A</a></div>
+        <div class="key"><a class="servicenow" id="servicenow" onmouseover="clickedElement(this.id)">S</a></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"><a class="Google" id="google" onmouseover="clickedElement(this.id)">G</a></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key 13"></div>
+        <div class="key 15 double"></div>
+      </div>
+      <div class="keyboard">
+        <div class="key doublePlusHalf"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"><a class="Microsoft" id="microsoft" onmouseover="clickedElement(this.id)">M</a></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key doublePlusHalf"></div>
+      </div>
+      <div class="keyboard">
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key spaceBar"><span id="workTitle"></span></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+      </div>
+    </div>
+    <div class="workSummary" id="workAtApple">
+      <h3>Apple Inc.</h3>
+      <p>Designed Apple Online Store for B2B customers using custom UI with an integration with SAP CRM, it was an implementation of next-generation online store for channel partners, direct institution buyers, and distributors that processed $6B annual sales. <br/>It was designed for Government agencies, Educational Institutions, E-Procurement & other retail customers in 20 different languages. <br/>The task involved designing UI for different interface by gathering requirements from stakeholders and make it functional by working with Developers. </p>
+    </div>
+    <div class="workSummary" id="workAtGoogle">
+      <h3>Google</h3>
+      <p>Worked at Google Inc. with Chrome Browser development team, where I was involved researching UI component behavior when CSS is applied and render through JavaScript dynamically.<br/>
+        My job also involved researching 500 world's best & complex websites rendering behavior on a Chrome browser which used to be based on Safari Webkit.
+      </p>
+    </div>
+    <div class="workSummary" id="workAtMicrosoft">
+      <h3>Microsoft</h3>
+      <p>Worked on www.msn.com and other Microsoft's internal portals which involved creating page layouts, writing complex Stylsheets (base, main, component level & browser specifics) to support all legacy browsers like IE6.0.<br/> My Favorite part was writing a perfect box model, implementing positioning & CSS Specificity in such a way so that things could not go off even for a pixel.</p>
+    </div>
+    <div class="workSummary" id="workAtEbay">
+      <h3>Ebay</h3>
+      <p>Worked at eBay For DMG (Direct Marketing Group) to develop different types marketing campaigns and billboard for ebay.com based on customer search performed and hot business deals for give day and other sales day like Thanks Giving.</p>
+    </div>
+    <div class="workSummary" id="workAtServiceNow">
+      <h3>ServiceNow Inc.</h3>
+      <p>Working at ServiceNow currently as a Staff Software Engineer with Field Service Management Application team.<br/> I've been involved here in so many activities from UX research, UI Development, Accessibility research, Quality management and a ServiceNow community expert.</p>
+    </div>
+  </main>
+  <nav class="something" id="navOptions">
+    <ul>
+      <li><a class="effect-underline" href="./index.html">Home</a></li>
+      <li><a class="effect-underline" href="./work.html">Work</a></li>
+      <li><a class="effect-underline" href="./skills.html">Skills</a></li>
+      <li><a class="effect-underline" href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <footer class="col-10">
+    <p>© Copyright for any material published on this website is reserved by <a href="#">https://www.CaliUI.com</a></p>
+  </footer>
+  <script>
+
+  </script>
+  <script src="interactions.js" type="text/javascript" charset="utf-8"></script>
+  <script>
+    typeWriterTextHolder = document.getElementById("workTitle");
+    typeWriterText = 'Please click on any hightlighted button.';
+    typeWriter();
+  </script>
+</body>
+</html>
+
