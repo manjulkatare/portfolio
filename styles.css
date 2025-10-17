@@ -131,13 +131,13 @@ a.effect-underline:hover:after {
   }
 
   .hero {
-    background:transparent url("../images/hero.png") no-repeat 50% 100%;
+    background:transparent url("images/hero.png") no-repeat 50% 100%;
     background-size: auto 60%;
   }
 
 
   .hero_contact {
-    background:transparent url("../images/hero_contact.png") no-repeat 50% 100%;
+    background:transparent url("images/hero_contact.png") no-repeat 50% 100%;
     background-size: auto 60%;
   }
 
